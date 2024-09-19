@@ -73,7 +73,7 @@
     Реалізація відображення одного файлу як частини іншого файлу.
 </p>
 &lt;jsp:include page="fragment.jsp"/&gt;
-<jsp:include page="fragment.jsp"/>
+<jsp:include page="../../fragment.jsp"/>
 
 <pre>
     Browser        Tomcat
@@ -89,7 +89,6 @@ ______________
 3 | String 3 |
 ...
 * додати до "масиву" відомості про "ціну товару" та також вивести її в таблиці
-</body>
 
 <h2>HOMEWORK</h2>
 <%
@@ -112,5 +111,6 @@ ______________
             <td><%= prices[i] %></td>
         </tr>
     <% } %>
+</body>
 
 </html>
