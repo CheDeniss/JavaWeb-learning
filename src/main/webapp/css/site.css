@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.spacer {
+    flex: 1;
+}
+.site-logo {
+    font-size: xx-large;
+    margin: 0 20px;
+}
+.site-logo img {
+    max-height: 25px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 10px #fff0f7;
+}
+.nav-addon {
+    font-size: larger;
+    margin-right: 20px;
+}
