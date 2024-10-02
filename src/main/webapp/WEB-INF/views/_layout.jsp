@@ -3,6 +3,7 @@
     String pageName = (String) request.getAttribute( "page" ) ;
     // contextPath -- /Java221 - контекстний шлях нашого застосунку
     String contextPath = request.getContextPath();
+    System.out.println("c-path from layout - " + contextPath);
 %>
 <html>
 <head>
@@ -68,6 +69,6 @@
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="<%=contextPath%>/js/site.js"></script>
+<script src="<%=contextPath%>/js/site1.js"></script>
 </body>
 </html>
